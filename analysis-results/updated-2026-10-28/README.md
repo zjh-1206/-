@@ -2,6 +2,12 @@
 
 用户确认：最新Design-Expert截图中运行8、9、15、17为复测或核实更正后的正式数据。本版按截图可见精度录入，原Excel和原报告保留不覆盖。
 
+## 新增：能耗与低温方案
+
+用户进一步要求氟萃取率≥80%、磷损失≤5%，暂无能耗数据，先比较低温方案。参见 **[低温候选、预测区间及能耗记录模板](low-temperature-energy/README.md)**。
+
+本页下方的95°C折中候选仅针对原有F/P双目标，不代表加入能耗与新阈值后的综合最优。
+
 ## 下载
 
 - [完整文件包 ZIP](https://github.com/zjh-1206/-/raw/refs/heads/main/analysis-results/updated-2026-10-28/updated_results.zip)
