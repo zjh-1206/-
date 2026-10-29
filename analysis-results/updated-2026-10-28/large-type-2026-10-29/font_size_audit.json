@@ -1,0 +1,101 @@
+[
+  {
+    "figure": "F_contour_C0p8",
+    "source_width_in": 12.2,
+    "source_height_in": 5.6,
+    "placement_scale": 1.0089285714285716,
+    "minimum_source_font_pt": 24,
+    "minimum_final_font_pt": 24.21428571428572,
+    "axis_title_source_font_pt": 28
+  },
+  {
+    "figure": "F_contour_C1p0",
+    "source_width_in": 12.2,
+    "source_height_in": 5.6,
+    "placement_scale": 1.0089285714285716,
+    "minimum_source_font_pt": 24,
+    "minimum_final_font_pt": 24.21428571428572,
+    "axis_title_source_font_pt": 28
+  },
+  {
+    "figure": "F_contour_C1p2",
+    "source_width_in": 12.2,
+    "source_height_in": 5.6,
+    "placement_scale": 1.0089285714285716,
+    "minimum_source_font_pt": 24,
+    "minimum_final_font_pt": 24.21428571428572,
+    "axis_title_source_font_pt": 28
+  },
+  {
+    "figure": "P_contour_C0p8",
+    "source_width_in": 12.2,
+    "source_height_in": 5.6,
+    "placement_scale": 1.0089285714285716,
+    "minimum_source_font_pt": 24,
+    "minimum_final_font_pt": 24.21428571428572,
+    "axis_title_source_font_pt": 28
+  },
+  {
+    "figure": "P_contour_C1p0",
+    "source_width_in": 12.2,
+    "source_height_in": 5.6,
+    "placement_scale": 1.0089285714285716,
+    "minimum_source_font_pt": 24,
+    "minimum_final_font_pt": 24.21428571428572,
+    "axis_title_source_font_pt": 28
+  },
+  {
+    "figure": "P_contour_C1p2",
+    "source_width_in": 12.2,
+    "source_height_in": 5.6,
+    "placement_scale": 1.0089285714285716,
+    "minimum_source_font_pt": 24,
+    "minimum_final_font_pt": 24.21428571428572,
+    "axis_title_source_font_pt": 28
+  },
+  {
+    "figure": "F_temperature_trends",
+    "source_width_in": 12.2,
+    "source_height_in": 5.6,
+    "placement_scale": 1.0089285714285716,
+    "minimum_source_font_pt": 24,
+    "minimum_final_font_pt": 24.21428571428572,
+    "axis_title_source_font_pt": 28
+  },
+  {
+    "figure": "P_temperature_trends",
+    "source_width_in": 12.2,
+    "source_height_in": 5.6,
+    "placement_scale": 1.0089285714285716,
+    "minimum_source_font_pt": 24,
+    "minimum_final_font_pt": 24.21428571428572,
+    "axis_title_source_font_pt": 28
+  },
+  {
+    "figure": "FP_phase_ratio_tradeoff",
+    "source_width_in": 12.2,
+    "source_height_in": 5.6,
+    "placement_scale": 1.0089285714285716,
+    "minimum_source_font_pt": 24,
+    "minimum_final_font_pt": 24.21428571428572,
+    "axis_title_source_font_pt": 28
+  },
+  {
+    "figure": "F_surface_C1p0",
+    "source_width_in": 8.5,
+    "source_height_in": 5.6,
+    "placement_scale": 1.0,
+    "minimum_source_font_pt": 23,
+    "minimum_final_font_pt": 23.0,
+    "axis_title_source_font_pt": 26
+  },
+  {
+    "figure": "F_surface_C0p8",
+    "source_width_in": 8.5,
+    "source_height_in": 5.6,
+    "placement_scale": 1.0,
+    "minimum_source_font_pt": 23,
+    "minimum_final_font_pt": 23.0,
+    "axis_title_source_font_pt": 26
+  }
+]

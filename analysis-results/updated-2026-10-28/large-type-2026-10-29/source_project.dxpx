@@ -1,0 +1,568 @@
+<!DOCTYPE DEXXMLDoc SYSTEM "DEXXMLDoc.DTD">
+<DEXXMLDoc name="å“åº”é¢è®¾è®¡-1.dxpx" creator="DX13" version="13.0.1.0">
+<designInfo studyType="ResponseSurface" studySubType="Randomized" designType="BoxBehnken" noOfRuns="17" noOfFactors="3" noOfResponses="3" noOfAnalyses="4">
+<designNotes>This data file created by Design-Expert 13.</designNotes>
+</designInfo>
+<blockInfo>
+<block code="0" name="Block 1"/>
+</blockInfo>
+<factorInfo>
+<factor id="A" name="æ¸©åº¦" unit="â„ƒ" type="Numeric" uuid="00000000-0000-0000-203c-645bbf020000">
+<numeric format="General" low="75" high="95" stdDev="0"/>
+</factor>
+<factor id="B" name="ç›¸æ¯”" unit="" type="Numeric" uuid="00000000-0000-0000-203c-645bbf020000">
+<numeric format="General" low="0.667" high="1.333" stdDev="0"/>
+</factor>
+<factor id="C" name="åˆå§‹æ°Ÿå«é‡" unit="%" type="Numeric" uuid="00000000-0000-0000-203c-645bbf020000">
+<numeric format="General" low="0.8" high="1.2" stdDev="0"/>
+</factor>
+</factorInfo>
+<constraintInfo/>
+<responseInfo>
+<response id="1" name="æ°Ÿèƒå–çŽ‡" unit="%" type="Normal" format="General" responseUuId="4856b74f-5fbf-4f49-b03a-1aa0d04c8157"/>
+<response id="2" name="ç£·èƒå–çŽ‡" unit="%" type="Normal" format="General" responseUuId="77331bba-1411-48e9-9e59-f626d8bc8ed8"/>
+<response id="3" name="æ°Ÿé€‰æ‹©æ€§" unit="" type="Normal" format="General" responseUuId="1099b845-97e0-47a9-bcb4-325c62b158d3"/>
+</responseInfo>
+<guiState>
+<designLayout>
+<visibleColumns>
+<column type="stdorder">
+<width>35</width>
+</column>
+<column type="runorder">
+<width>35</width>
+</column>
+<column id="A" type="factor">
+<width>104</width>
+</column>
+<column id="B" type="factor">
+<width>104</width>
+</column>
+<column id="C" type="factor">
+<width>104</width>
+</column>
+<column id="1" type="response">
+<width>104</width>
+</column>
+<column id="2" type="response">
+<width>104</width>
+</column>
+<column id="3" type="response">
+<width>104</width>
+</column>
+</visibleColumns>
+</designLayout>
+<graphSettings>
+<graphArea name="GraphColumns">
+<selectedGraph>0</selectedGraph>
+<colorBy type="runOrder"/>
+<axisX type="factor" index="0"/>
+<axisY type="response" index="0"/>
+<axisZ type="none"/>
+<axisX_Histogram type="response" index="0"/>
+<axisX_BoxPlot type="none"/>
+<axisY_BoxPlot type="response" index="0"/>
+<histograms/>
+<legend key="Scatter2D" title="Design-ExpertÂ® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+</graphArea>
+<graphArea name="Diagnostics" index="0">
+<legend key="NormalResidualsGraph" title="Design-ExpertÂ® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="ResVsPredGraph" title="Design-ExpertÂ® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="ResVsRunGraph" title="Design-ExpertÂ® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="PredVsActualGraph" title="Design-ExpertÂ® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="BoxCoxGraph" title="Design-ExpertÂ® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>Lambda</showItem>
+<showItem>RecommendedTransform</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="ResVsFactorGraph" title="Design-ExpertÂ® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="CooksDistanceGraph" title="Design-ExpertÂ® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="LeverageGraph" title="Design-ExpertÂ® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="RunsVsDFFITSGraph" title="Design-ExpertÂ® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="RunsVsDFBETASGraph" title="Design-ExpertÂ® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<colorBy type="response" index="0"/>
+</graphArea>
+<graphArea name="Model" index="0" graph="0">
+<label type="factor" index="2">B: Phase ratio</label>
+<graphMethod>3D</graphMethod>
+<axis type="factor" index="0">
+<low>-0.705223880597011</low>
+<high>-0.178855721393031</high>
+<format>General</format>
+<ticks>5</ticks>
+</axis>
+<axis type="factor" index="1">
+<low>0.636069651741284</low>
+<high>1.18532338308456</high>
+<format>General</format>
+<ticks>7</ticks>
+</axis>
+<contours type="response" index="0" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel>86.4842</contourLevel>
+<contourLevel>86.5379</contourLevel>
+<contourLevel>86.5916</contourLevel>
+<contourLevel>86.6453</contourLevel>
+<contourLevel>86.699</contourLevel>
+</contours>
+<space>
+<codedPoint>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+<codedValue>-1</codedValue>
+</codedPoint>
+<axis index="0">0</axis>
+<axis index="1">1</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+<legend key="4" fontSize="44" title="Design-ExpertÂ® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="7" fontSize="45" title="Design-ExpertÂ® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+</graphArea>
+<graphArea name="Diagnostics" index="1">
+<colorBy type="none"/>
+</graphArea>
+<graphArea name="Model" index="1" graph="0">
+<graphMethod>3D</graphMethod>
+<contours type="response" index="1" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel>2.74693</contourLevel>
+<contourLevel>4.10829</contourLevel>
+<contourLevel>5.46965</contourLevel>
+<contourLevel>6.83102</contourLevel>
+<contourLevel>8.19238</contourLevel>
+</contours>
+<space>
+<codedPoint>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+<codedValue>-1</codedValue>
+</codedPoint>
+<axis index="0">0</axis>
+<axis index="1">1</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+<legend key="4" title="Design-ExpertÂ® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+<legend key="7" title="Design-ExpertÂ® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+</graphArea>
+<graphArea name="NumericalOptimization">
+<graphMethod>Contour</graphMethod>
+<contours type="desirability" index="-1" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel>0</contourLevel>
+<contourLevel>0.2</contourLevel>
+<contourLevel>0.4</contourLevel>
+<contourLevel>0.6</contourLevel>
+<contourLevel>0.8</contourLevel>
+<contourLevel>1</contourLevel>
+</contours>
+<contours type="desirability" index="0" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel>78</contourLevel>
+<contourLevel>80</contourLevel>
+<contourLevel>82</contourLevel>
+<contourLevel>84</contourLevel>
+<contourLevel>86</contourLevel>
+<contourLevel>88</contourLevel>
+</contours>
+<contours type="desirability" index="1" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel>2</contourLevel>
+<contourLevel>4</contourLevel>
+<contourLevel>6</contourLevel>
+<contourLevel>8</contourLevel>
+</contours>
+<contours type="desirability" index="2" transformed="false" mode="auto">
+<format>General</format>
+<contourLevel>50</contourLevel>
+<contourLevel>100</contourLevel>
+<contourLevel>150</contourLevel>
+</contours>
+<space>
+<codedPoint>
+<codedValue>-1</codedValue>
+<codedValue>1</codedValue>
+<codedValue>0</codedValue>
+</codedPoint>
+<axis index="0">0</axis>
+<axis index="1">1</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+<legend key="4" title="Design-ExpertÂ® Software">
+<dock type="TopLeft"/>
+<showItems>
+<showItem>Response</showItem>
+<showItem>Info</showItem>
+<showItem>ColorGradient</showItem>
+<showItem>Data</showItem>
+<showItem>PointInfo</showItem>
+</showItems>
+</legend>
+</graphArea>
+</graphSettings>
+<perspectives>
+<report name="diagnostics_notebook_·úÑ¡ÔñÐÔ" width="1920" height="1080">5f602d906ae1a60f370d740900000002=+0|5f6030206ae1a60f370d755f00000003=+1,2,6|5f6028706ae1a60f370d756700000004=4,*5|5f6032b06ae1a60f370d756c00000005=3,7,8,+9,10@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=225;besth=225;minw=225;minh=225;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f602d906ae1a60f370d740900000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=843;besth=0;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f6030206ae1a60f370d755f00000003;caption=;state=2098172;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=852;besth=0;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f6028706ae1a60f370d756700000004;caption=;state=2098172;dir=3;layer=5;row=1;pos=0;prop=100000;bestw=1702;besth=432;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f6032b06ae1a60f370d756c00000005;caption=;state=2098172;dir=3;layer=5;row=0;pos=0;prop=100000;bestw=1702;besth=419;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=252|dock_size(2,4,0)=854|dock_size(3,5,0)=434|dock_size(3,5,1)=434|</report>
+<report name="diagnostics_notebook_·úÝÍÈ¡ÂÊ" width="1920" height="1080">5f603f806ae1a50737096e1700000002=+0|5f6042106ae1a50737096f6500000003=+1,2,6|5f6030206ae1a50737096f6f00000004=+4,5|5f6035406ae1a50737096f7500000005=3,7,*8,9,10@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=225;besth=225;minw=225;minh=225;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f603f806ae1a50737096e1700000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=843;besth=0;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f6042106ae1a50737096f6500000003;caption=;state=2098172;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=852;besth=0;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f6030206ae1a50737096f6f00000004;caption=;state=2098172;dir=3;layer=5;row=1;pos=0;prop=100000;bestw=1702;besth=432;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f6035406ae1a50737096f7500000005;caption=;state=2098172;dir=3;layer=5;row=0;pos=0;prop=100000;bestw=1702;besth=419;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=252|dock_size(2,4,0)=854|dock_size(3,5,0)=434|dock_size(3,5,1)=434|</report>
+<report name="diagnostics_notebook_Á×ÝÍÈ¡ÂÊ" width="1920" height="1080">5f6028706ae1b3e1374373d300000002=+0|5f6030206ae1b3e23743753c00000003=+1,2,6|5f6037d06ae1b3e23743754600000004=4,*5|5f6042106ae1b3e23743755200000005=+3,7,8,9,10@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=225;besth=225;minw=225;minh=225;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f6028706ae1b3e1374373d300000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=843;besth=0;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f6030206ae1b3e23743753c00000003;caption=;state=2098172;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=852;besth=0;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f6037d06ae1b3e23743754600000004;caption=;state=2098172;dir=3;layer=5;row=1;pos=0;prop=100000;bestw=1702;besth=432;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f6042106ae1b3e23743755200000005;caption=;state=2098172;dir=3;layer=5;row=0;pos=0;prop=100000;bestw=1702;besth=419;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=252|dock_size(2,4,0)=854|dock_size(3,5,0)=434|dock_size(3,5,1)=434|</report>
+<report name="main_frame" width="1938" height="1038">layout2|name=main_toolbar;caption=Toolbar;state=2106108;dir=1;layer=10;row=0;pos=1;prop=100000;bestw=441;besth=37;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=start_screen;caption=;state=258;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=0;besth=0;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=navigation_tree;caption=Navigation Pane;state=5628;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=200;besth=600;minw=40;minh=40;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=node_view;caption=;state=4352;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=16;besth=16;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Layout Tool;caption=;state=2110204;dir=1;layer=10;row=0;pos=444;prop=100000;bestw=242;besth=37;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Graphs Tool;caption=;state=2110206;dir=1;layer=10;row=0;pos=752;prop=100000;bestw=961;besth=42;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Factors Tool;caption=Factors Tool;state=2098686;dir=2;layer=1;row=0;pos=0;prop=100000;bestw=262;besth=380;minw=40;minh=40;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=262;floath=409|name=Crosshairs Window;caption=Crosshairs Window;state=2098686;dir=4;layer=1;row=0;pos=1;prop=100000;bestw=200;besth=250;minw=40;minh=40;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=221;floath=300|name=Pairwise Comparisons Tool;caption=Pairwise Comparisons Tool;state=2098686;dir=4;layer=1;row=0;pos=2;prop=100000;bestw=200;besth=250;minw=40;minh=40;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=221;floath=300|dock_size(1,10,0)=39|dock_size(5,0,0)=10|dock_size(4,1,0)=200|</report>
+<report name="modelgraph_notebook_·úÑ¡ÔñÐÔ" width="1920" height="1080">5f6028706ae1a692370f76a500000002=*0@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=852;besth=432;minw=852;minh=432;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f6028706ae1a692370f76a500000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=1702;besth=863;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=252|</report>
+<report name="modelgraph_notebook_·úÝÍÈ¡ÂÊ" width="1920" height="1080">5f603cf06ae1a50d370985d100000002=*0@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=852;besth=432;minw=852;minh=432;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f603cf06ae1a50d370985d100000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=1702;besth=863;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=252|</report>
+<report name="modelgraph_notebook_Á×ÝÍÈ¡ÂÊ" width="1920" height="1080">5f602d906ae1a5183709b07600000002=*0@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=852;besth=432;minw=852;minh=432;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f602d906ae1a5183709b07600000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=1702;besth=863;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=252|</report>
+<report name="report_anova_·úÑ¡ÔñÐÔ" width="1920" height="1080">5f602b006ae19d2236ea988300000002=+0|5f6042106ae19d2236ea99a800000003=*1,2|5f603f806ae19d2236ea99ac00000004=3,+4,5@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=225;besth=225;minw=225;minh=225;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f602b006ae19d2236ea988300000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=0;besth=863;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f6042106ae19d2236ea99a800000003;caption=;state=2098172;dir=2;layer=3;row=1;pos=0;prop=100000;bestw=852;besth=863;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f603f806ae19d2236ea99ac00000004;caption=;state=2098172;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=838;besth=863;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=252|dock_size(2,3,0)=854|dock_size(2,3,1)=854|</report>
+<report name="report_anova_·úÝÍÈ¡ÂÊ" width="1920" height="1080">5f602b006ae19d1636ea684d00000002=+0|6036e9a06ae2b3ae3b2aa93500000003=*1,2|60fc30406ae2b3ae3b2aa93f00000004=+4,5|60fc1e506ae2b3ae3b2aa94f00000005=+3@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=225;besth=225;minw=225;minh=225;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f602b006ae19d1636ea684d00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=843;besth=0;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=6036e9a06ae2b3ae3b2aa93500000003;caption=;state=2098172;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=852;besth=0;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=60fc30406ae2b3ae3b2aa93f00000004;caption=;state=2098172;dir=3;layer=5;row=1;pos=0;prop=100000;bestw=1702;besth=430;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=60fc1e506ae2b3ae3b2aa94f00000005;caption=;state=2098172;dir=3;layer=5;row=0;pos=0;prop=100000;bestw=1702;besth=421;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=252|dock_size(2,4,0)=854|dock_size(3,5,0)=432|dock_size(3,5,1)=432|</report>
+<report name="report_anova_Á×ÝÍÈ¡ÂÊ" width="1920" height="1080">5eff25806ae19c2d36e6da4300000002=+0|5eff2d306ae19c2d36e6dbba00000003=*1,2|5eff22f06ae19c2d36e6dbc600000004=+3,4,5@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=225;besth=225;minw=225;minh=225;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5eff25806ae19c2d36e6da4300000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=779;besth=863;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5eff2d306ae19c2d36e6dbba00000003;caption=;state=2098172;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=916;besth=428;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5eff22f06ae19c2d36e6dbc600000004;caption=;state=2098172;dir=2;layer=3;row=0;pos=1;prop=100000;bestw=916;besth=428;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|dock_size(2,3,0)=918|</report>
+<report name="report_design_summary_" width="1920" height="1080">5f602d906ae19d4036eb0dcd00000002=*0|5f6032b06ae19d4036eb0e4f00000003=+1,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=225;besth=225;minw=225;minh=225;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f602d906ae19d4036eb0dcd00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=1710;besth=441;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f6032b06ae19d4036eb0e4f00000003;caption=;state=2098172;dir=3;layer=2;row=0;pos=0;prop=100000;bestw=1710;besth=450;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=252|dock_size(3,2,0)=452|</report>
+<report name="report_fit_summary_·úÑ¡ÔñÐÔ" width="0" height="0"></report>
+<report name="report_fit_summary_·úÝÍÈ¡ÂÊ" width="0" height="0"></report>
+<report name="report_fit_summary_Á×ÝÍÈ¡ÂÊ" width="0" height="0"></report>
+<report name="report_solutions_" width="1920" height="1080">5f6028706ae1a70737113cfb00000002=*0|5f6030206ae1a70737113d8a00000003=+1,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=225;besth=225;minw=225;minh=225;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f6028706ae1a70737113cfb00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=1702;besth=424;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=5f6030206ae1a70737113d8a00000003;caption=;state=2098172;dir=3;layer=2;row=0;pos=0;prop=100000;bestw=1702;besth=432;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=252|dock_size(3,2,0)=434|</report>
+</perspectives>
+</guiState>
+<designModel terms="10">
+<designTerm id="0" coef="1" term="Intercept"/>
+<designTerm id="1" coef="1" term="A"/>
+<designTerm id="2" coef="1" term="B"/>
+<designTerm id="3" coef="1" term="C"/>
+<designTerm id="4" coef="1" term="AB"/>
+<designTerm id="5" coef="1" term="AC"/>
+<designTerm id="6" coef="1" term="BC"/>
+<designTerm id="7" coef="1" term="A^2"/>
+<designTerm id="8" coef="1" term="B^2"/>
+<designTerm id="9" coef="1" term="C^2"/>
+</designModel>
+<run stdNo="1" dsnId="2" runNo="1" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">75</facActual>
+<facActual id="B">0.667</facActual>
+<facActual id="C">1</facActual>
+<resVal id="1">77.11941428</resVal>
+<resVal id="2">1.636109771</resVal>
+<resVal id="3">202.6375</resVal>
+</run>
+<run stdNo="15" dsnId="14" runNo="2" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">85</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">1</facActual>
+<resVal id="1">85.09260756</resVal>
+<resVal id="2">5.644204889</resVal>
+<resVal id="3">95.4236</resVal>
+</run>
+<run stdNo="17" dsnId="14" runNo="3" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">85</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">1</facActual>
+<resVal id="1">85.86515835</resVal>
+<resVal id="2">4.844244039</resVal>
+<resVal id="3">119.326</resVal>
+</run>
+<run stdNo="4" dsnId="5" runNo="4" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">95</facActual>
+<facActual id="B">1.333</facActual>
+<facActual id="C">1</facActual>
+<resVal id="1">88.94737983</resVal>
+<resVal id="2">10.19638535</resVal>
+<resVal id="3">70.8787</resVal>
+</run>
+<run stdNo="7" dsnId="8" runNo="5" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">75</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">1.2</facActual>
+<resVal id="1">82.77628644</resVal>
+<resVal id="2">6.675317471</resVal>
+<resVal id="3">67.1899</resVal>
+</run>
+<run stdNo="12" dsnId="13" runNo="6" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">85</facActual>
+<facActual id="B">1.333</facActual>
+<facActual id="C">1.2</facActual>
+<resVal id="1">88.992223</resVal>
+<resVal id="2">8.934138759</resVal>
+<resVal id="3">74</resVal>
+</run>
+<run stdNo="11" dsnId="12" runNo="7" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">85</facActual>
+<facActual id="B">0.667</facActual>
+<facActual id="C">1.2</facActual>
+<resVal id="1">76.06247911</resVal>
+<resVal id="2">1.819420496</resVal>
+<resVal id="3">171.4683</resVal>
+</run>
+<run stdNo="9" dsnId="10" runNo="8" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">85</facActual>
+<facActual id="B">0.667</facActual>
+<facActual id="C">0.8</facActual>
+<resVal id="1">79.49771307</resVal>
+<resVal id="2">2.948019734</resVal>
+<resVal id="3">133.5</resVal>
+</run>
+<run stdNo="8" dsnId="9" runNo="9" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">95</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">1.2</facActual>
+<resVal id="1">86.38560569</resVal>
+<resVal id="2">5.368789461</resVal>
+<resVal id="3">113</resVal>
+</run>
+<run stdNo="3" dsnId="4" runNo="10" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">75</facActual>
+<facActual id="B">1.333</facActual>
+<facActual id="C">1</facActual>
+<resVal id="1">87.4470691</resVal>
+<resVal id="2">8.483284047</resVal>
+<resVal id="3">75.1513</resVal>
+</run>
+<run stdNo="14" dsnId="14" runNo="11" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">85</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">1</facActual>
+<resVal id="1">84.92712665</resVal>
+<resVal id="2">4.475810304</resVal>
+<resVal id="3">120.2519</resVal>
+</run>
+<run stdNo="2" dsnId="3" runNo="12" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">95</facActual>
+<facActual id="B">0.667</facActual>
+<facActual id="C">1</facActual>
+<resVal id="1">78.90550442</resVal>
+<resVal id="2">1.226362073</resVal>
+<resVal id="3">285</resVal>
+</run>
+<run stdNo="16" dsnId="14" runNo="13" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">85</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">1</facActual>
+<resVal id="1">85.48865809</resVal>
+<resVal id="2">5.48296666</resVal>
+<resVal id="3">101.5536</resVal>
+</run>
+<run stdNo="10" dsnId="11" runNo="14" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">85</facActual>
+<facActual id="B">1.333</facActual>
+<facActual id="C">0.8</facActual>
+<resVal id="1">86.95685435</resVal>
+<resVal id="2">9.522846745</resVal>
+<resVal id="3">63.3423</resVal>
+</run>
+<run stdNo="5" dsnId="6" runNo="15" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">75</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.8</facActual>
+<resVal id="1">84.41369516</resVal>
+<resVal id="2">7.646508572</resVal>
+<resVal id="3">65.4124</resVal>
+</run>
+<run stdNo="6" dsnId="7" runNo="16" blockNo="0" blockName="Block 1" pointId="12" pointName="IBFact" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">95</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.8</facActual>
+<resVal id="1">84.46270534</resVal>
+<resVal id="2">5.482986599</resVal>
+<resVal id="3">93.7092</resVal>
+</run>
+<run stdNo="13" dsnId="14" runNo="17" blockNo="0" blockName="Block 1" pointId="7" pointName="Center" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">85</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">1</facActual>
+<resVal id="1">84.72745906</resVal>
+<resVal id="2">4.887453423</resVal>
+<resVal id="3">107.9613</resVal>
+</run>
+<responseModel rmId="1" analysisUuId="28ea5688-9595-4f45-b182-2870056578d7" name="·úÝÍÈ¡ÂÊ">
+<response id="1" responseUuId="4856b74f-5fbf-4f49-b03a-1aa0d04c8157" modelBase="Polynomial" stdDevSource="ANOVA" stdDev="0.414969561329727"/>
+<transform id="0" name="None" successLevel="1"/>
+<compModel modelType="Polynomial" calcType="CodedCalc" hierarchicalActual="false" terms="10">
+<equationTerm id="0" coef="85.220201942" term="Intercept"/>
+<equationTerm id="1" coef="0.868091287500008" term="A"/>
+<equationTerm id="2" coef="5.09480192500001" term="B"/>
+<equationTerm id="3" coef="-0.13929671" term="C"/>
+<equationTerm id="4" coef="-0.0714448525000133" term="AB"/>
+<equationTerm id="5" coef="0.890077267500001" term="AC"/>
+<equationTerm id="6" coef="1.3676506525" term="BC"/>
+<equationTerm id="7" coef="-0.241552129750007" term="A^2"/>
+<equationTerm id="8" coef="-1.87380790475001" term="B^2"/>
+<equationTerm id="9" coef="-0.469076654749993" term="C^2"/>
+<equationTerm id="10" term="Curvature"/>
+</compModel>
+</responseModel>
+<responseModel rmId="2" analysisUuId="a7d58e89-b74b-49b0-b042-0e42c7a766be" name="Á×ÝÍÈ¡ÂÊ">
+<response id="2" responseUuId="77331bba-1411-48e9-9e59-f626d8bc8ed8" modelBase="Polynomial" stdDevSource="ANOVA" stdDev="0.899948969106284"/>
+<transform id="0" name="None" successLevel="1"/>
+<compModel modelType="Polynomial" calcType="CodedCalc" hierarchicalActual="false" terms="7">
+<equationTerm id="0" coef="5.60440284664706" term="Intercept"/>
+<equationTerm id="1" coef="-0.270837047249999" term="A"/>
+<equationTerm id="2" coef="3.688342853375" term="B"/>
+<equationTerm id="3" coef="-0.350336932875" term="C"/>
+<equationTerm id="4" coef="0.530712250249998" term="AB"/>
+<equationTerm id="5" coef="0.21424849075" term="AC"/>
+<equationTerm id="6" coef="0.134972813" term="BC"/>
+<equationTerm id="7" term="Curvature"/>
+</compModel>
+</responseModel>
+<responseModel rmId="3" analysisUuId="7ea9096d-5bf4-46ba-9769-f77c64aece6d" name="·úÑ¡ÔñÐÔ">
+<response id="3" responseUuId="1099b845-97e0-47a9-bcb4-325c62b158d3" modelBase="Polynomial" stdDevSource="ANOVA" stdDev="24.9417545665196"/>
+<transform id="0" name="None" successLevel="1"/>
+<compModel modelType="Polynomial" calcType="CodedCalc" hierarchicalActual="false" terms="10">
+<equationTerm id="0" coef="108.90328" term="Intercept"/>
+<equationTerm id="1" coef="19.0246" term="A"/>
+<equationTerm id="2" coef="-63.6541875" term="B"/>
+<equationTerm id="3" coef="8.7117875" term="C"/>
+<equationTerm id="4" coef="-21.658775" term="AB"/>
+<equationTerm id="5" coef="4.378325" term="AC"/>
+<equationTerm id="6" coef="-6.82764999999999" term="BC"/>
+<equationTerm id="7" coef="11.88191" term="A^2"/>
+<equationTerm id="8" coef="37.631685" term="B^2"/>
+<equationTerm id="9" coef="-35.957315" term="C^2"/>
+<equationTerm id="10" term="Curvature"/>
+</compModel>
+</responseModel>
+<responseModel rmId="4" analysisUuId="93f40d6c-c2a3-41cd-8e93-0f4bcc9deba9" name="æ°Ÿèƒå–çŽ‡ (1)">
+<response id="1" responseUuId="4856b74f-5fbf-4f49-b03a-1aa0d04c8157" modelBase="Polynomial" stdDevSource="ANOVA" stdDev="Missing"/>
+<transform id="0" name="None" successLevel="1"/>
+</responseModel>
+<optimization models="9">
+<criteria modType="Factor" id="1" goal="InRange" type="Numeric" target="85" limitLow="75" limitHigh="95" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original"/>
+<criteria modType="Factor" id="2" goal="Maximum" type="Numeric" target="1.333" limitLow="0.667" limitHigh="1.333" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original"/>
+<criteria modType="Factor" id="3" goal="InRange" type="Numeric" target="1" limitLow="0.8" limitHigh="1.2" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original"/>
+<criteria modType="Response" id="1" goal="None" type="Numeric" target="82.527351055" limitLow="76.06247911" limitHigh="88.992223" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original" responseUuId="4856b74f-5fbf-4f49-b03a-1aa0d04c8157" rmId="1" analysisUuId="28ea5688-9595-4f45-b182-2870056578d7"/>
+<criteria modType="POE" id="1" goal="None" type="Numeric" target="Missing" limitLow="Missing" limitHigh="Missing" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Coded" scale="Transform" displayScale="Original" responseUuId="4856b74f-5fbf-4f49-b03a-1aa0d04c8157" rmId="1" analysisUuId="28ea5688-9595-4f45-b182-2870056578d7"/>
+<criteria modType="Response" id="2" goal="None" type="Numeric" target="5.7113737115" limitLow="1.226362073" limitHigh="10.19638535" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original" responseUuId="77331bba-1411-48e9-9e59-f626d8bc8ed8" rmId="2" analysisUuId="a7d58e89-b74b-49b0-b042-0e42c7a766be"/>
+<criteria modType="POE" id="2" goal="None" type="Numeric" target="Missing" limitLow="Missing" limitHigh="Missing" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Coded" scale="Transform" displayScale="Original" responseUuId="77331bba-1411-48e9-9e59-f626d8bc8ed8" rmId="2" analysisUuId="a7d58e89-b74b-49b0-b042-0e42c7a766be"/>
+<criteria modType="Response" id="3" goal="None" type="Numeric" target="174.17115" limitLow="63.3423" limitHigh="285" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original" responseUuId="1099b845-97e0-47a9-bcb4-325c62b158d3" rmId="3" analysisUuId="7ea9096d-5bf4-46ba-9769-f77c64aece6d"/>
+<criteria modType="POE" id="3" goal="None" type="Numeric" target="Missing" limitLow="Missing" limitHigh="Missing" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Coded" scale="Transform" displayScale="Original" responseUuId="1099b845-97e0-47a9-bcb4-325c62b158d3" rmId="3" analysisUuId="7ea9096d-5bf4-46ba-9769-f77c64aece6d"/>
+</optimization>
+<buildInfo noOfCenterPoints="5" buildTime="0"/>
+</DEXXMLDoc>
