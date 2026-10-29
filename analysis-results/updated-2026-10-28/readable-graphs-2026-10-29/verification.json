@@ -1,0 +1,156 @@
+{
+  "source_sha256": "a7b2e3c00df058f23c42b1ea2ba3a4384de8c2ef93bfaed0475c2f0ed86651e7",
+  "modified_sha256": "3eb4264e1656070b20147f36cc6a0b4c966054c40ca957b1211a840ad3c8c537",
+  "protected_sections": {
+    "run": {
+      "count": 17,
+      "identical_bytes": true,
+      "sha256": "ac21777fddceaae2c2ce62fb26fb2d977c29c5de545898d8623f9a5e5639faab"
+    },
+    "responseModel": {
+      "count": 4,
+      "identical_bytes": true,
+      "sha256": "2491c5c50cac3eacfcd47c9edda1c1396d1fc6cb7e79dfb54b1e1f0819accd04"
+    },
+    "designModel": {
+      "count": 1,
+      "identical_bytes": true,
+      "sha256": "2f06a04db8d43bb24b764b54334641a221a6bfb916902258bb5e39c0b92e972f"
+    },
+    "optimization": {
+      "count": 1,
+      "identical_bytes": true,
+      "sha256": "400db5fbba650e079244e3a011292ca1e9255605308d23367fe0f44292420434"
+    },
+    "constraintInfo": {
+      "count": 1,
+      "identical_bytes": true,
+      "sha256": "9f7299bd5a9770e884d994de8921d299803ff591511655b14bedeb6fc4eb4318"
+    },
+    "blockInfo": {
+      "count": 1,
+      "identical_bytes": true,
+      "sha256": "d7571e67271cd7e6c533616ecf6bbe0673892c5db21bd52898eb9e199ef5642d"
+    }
+  },
+  "data_exactly_unchanged": true,
+  "saved_models_exactly_unchanged": true,
+  "native_application_open_test": false,
+  "native_changes": [
+    "English factor/response names; units unchanged semantically",
+    "F graph factor axes restored to coded [-1,1]",
+    "Removed erroneous custom label and oversized legend font overrides",
+    "Refreshed auto-contour cached levels; retained C=0.8% and 3D graph method"
+  ],
+  "models": {
+    "F": {
+      "terms": [
+        "Intercept",
+        "A",
+        "B",
+        "C",
+        "AB",
+        "AC",
+        "BC",
+        "A^2",
+        "B^2",
+        "C^2"
+      ],
+      "coefficients": [
+        85.220201942,
+        0.868091287500008,
+        5.09480192500001,
+        -0.13929671,
+        -0.0714448525000133,
+        0.890077267500001,
+        1.3676506525,
+        -0.241552129750007,
+        -1.87380790475001,
+        -0.469076654749993
+      ],
+      "R2": 0.9950281855747487,
+      "adjusted_R2": 0.9886358527422827,
+      "predicted_R2": 0.9700558899084389
+    },
+    "P": {
+      "terms": [
+        "Intercept",
+        "A",
+        "B",
+        "C",
+        "AB",
+        "AC",
+        "BC"
+      ],
+      "coefficients": [
+        5.60440284664706,
+        -0.270837047249999,
+        3.688342853375,
+        -0.350336932875,
+        0.530712250249998,
+        0.21424849075,
+        0.134972813
+      ],
+      "R2": 0.9324411523915335,
+      "adjusted_R2": 0.8919058438264535,
+      "predicted_R2": 0.7325491516199196
+    },
+    "beta": {
+      "terms": [
+        "Intercept",
+        "A",
+        "B",
+        "C",
+        "AB",
+        "AC",
+        "BC",
+        "A^2",
+        "B^2",
+        "C^2"
+      ],
+      "coefficients": [
+        108.90328,
+        19.0246,
+        -63.6541875,
+        8.7117875,
+        -21.658775,
+        4.378325,
+        -6.82764999999999,
+        11.88191,
+        37.631685,
+        -35.957315
+      ],
+      "R2": 0.9191428384466498,
+      "adjusted_R2": 0.8151836307351995,
+      "predicted_R2": -0.16663805703873447
+    }
+  },
+  "figures": [
+    {
+      "file": "01_F_surface_C1p0",
+      "caption": "初始氟含量1.0%时，氟萃取率曲面与等高线；Z轴明确为75–90%。"
+    },
+    {
+      "file": "01_F_surface_C0p8",
+      "caption": "初始氟含量0.8%时，氟萃取率曲面与等高线；Z轴明确为75–90%。"
+    },
+    {
+      "file": "02_F_three_conditions",
+      "caption": "三个初始氟水平使用统一坐标和色标；灰区表示超出设计凸包。"
+    },
+    {
+      "file": "02_P_three_conditions",
+      "caption": "三个初始氟水平使用统一坐标和色标；灰区表示超出设计凸包。"
+    },
+    {
+      "file": "03_temperature_interaction",
+      "caption": "相比固定为1，比较三个初始氟水平下的温度响应，突出温度×初始氟交互。"
+    },
+    {
+      "file": "04_FP_phase_ratio_tradeoff",
+      "caption": "固定85°C、初始氟1%；展示相比提高时氟回收与磷损失同时增加的权衡。"
+    }
+  ],
+  "png_pdf_font": "Liberation Serif (Times New Roman not installed in this environment)",
+  "svg_font_request": "Times New Roman, Liberation Serif, serif; editable text"
+}
