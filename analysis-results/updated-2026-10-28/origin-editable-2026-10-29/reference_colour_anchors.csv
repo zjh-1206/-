@@ -1,0 +1,7 @@
+﻿Position,Colour,R,G,B,Hex
+0.0,Blue,0,0,255,#0000FF
+0.2,Cyan,0,255,255,#00FFFF
+0.4,Green,0,255,0,#00FF00
+0.6,Yellow,255,255,0,#FFFF00
+0.8,Orange,255,128,0,#FF8000
+1.0,Red,255,0,0,#FF0000

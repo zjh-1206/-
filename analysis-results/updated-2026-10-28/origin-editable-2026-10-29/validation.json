@@ -1,0 +1,17 @@
+{
+  "observations": 17,
+  "matrix_count": 6,
+  "grid_shape": [
+    81,
+    81
+  ],
+  "planned_native_graph_count": 11,
+  "workbook_sheets": 12,
+  "data_checksum_and_hull_mask_checks_passed": true,
+  "python_syntax_passed": true,
+  "Origin_runtime_executed": false,
+  "native_OPJU_generated": false,
+  "native_OLE_PPT_generated": false,
+  "palette_visual_match_verified": false,
+  "source_data_unchanged": true
+}

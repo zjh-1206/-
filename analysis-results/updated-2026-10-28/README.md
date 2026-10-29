@@ -18,6 +18,10 @@
 
 针对后续“字体太小”的反馈，请优先使用 **[PPT大字版与180mm论文排版示例](large-type-2026-10-29/README.md)**：一页一个主图，主要数字最终23–24pt，保留同一完整精度数据和模型；格式参考及字号核验记录随包提供。
 
+## Origin中继续编辑
+
+根据用户进一步要求，已准备 **[Origin 2021+ 原生图生成包](origin-editable-2026-10-29/README.md)**：完整精度数据、6个矩阵、11张图的原生生成脚本与复制为Origin OLE对象的脚本。需在用户本机Origin运行一次后生成OPJU；本环境没有Origin，未实际生成或试开原生工程。配色来源与RGB参考也已如实说明。
+
 ## 下载
 
 - [完整文件包 ZIP](https://github.com/zjh-1206/-/raw/refs/heads/main/analysis-results/updated-2026-10-28/updated_results.zip)

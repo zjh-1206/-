@@ -1,0 +1,108 @@
+{
+  "source_project_sha256": "a7b2e3c00df058f23c42b1ea2ba3a4384de8c2ef93bfaed0475c2f0ed86651e7",
+  "matrices": [
+    {
+      "key": "F_C0p8",
+      "coded_C": -1.0,
+      "initial_fluoride_percent": 0.8,
+      "description": "F extraction (%); initial F=0.8%",
+      "levels": [
+        75,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90
+      ]
+    },
+    {
+      "key": "F_C1p0",
+      "coded_C": 0.0,
+      "initial_fluoride_percent": 1.0,
+      "description": "F extraction (%); initial F=1.0%",
+      "levels": [
+        75,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90
+      ]
+    },
+    {
+      "key": "F_C1p2",
+      "coded_C": 1.0,
+      "initial_fluoride_percent": 1.2,
+      "description": "F extraction (%); initial F=1.2%",
+      "levels": [
+        75,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90
+      ]
+    },
+    {
+      "key": "P_C0p8",
+      "coded_C": -1.0,
+      "initial_fluoride_percent": 0.8,
+      "description": "P extraction (%); initial F=0.8%",
+      "levels": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        11
+      ]
+    },
+    {
+      "key": "P_C1p0",
+      "coded_C": 0.0,
+      "initial_fluoride_percent": 1.0,
+      "description": "P extraction (%); initial F=1.0%",
+      "levels": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        11
+      ]
+    },
+    {
+      "key": "P_C1p2",
+      "coded_C": 1.0,
+      "initial_fluoride_percent": 1.2,
+      "description": "P extraction (%); initial F=1.2%",
+      "levels": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        11
+      ]
+    }
+  ],
+  "expected_native_graphs": 11,
+  "input_sha256": {
+    "source_data.csv": "2c5fb20f3a11414e6e86dcd1f1d1e26e5a48e8203faf8aa7557282f0331b4c5a",
+    "matrix_data.npz": "008caa2912115d3aec4cfb119d97864d0bf40d687b1673034d2e12f9b6633700",
+    "temperature_trends.csv": "9b470b62e2919d9db7fbc04ae706f7cadec21b53c2b28dcdf947523803eb09b4",
+    "phase_ratio_tradeoff.csv": "222d4f5c59231e61a76e1394a7f76c0d4357895deecbad7fbd16fc00bf95ce41",
+    "saved_models.json": "51082480f79f978be14e297c21f8c9c3fccd14c8799773e63c3950744f819370"
+  },
+  "origin_palette": "Maple.pal",
+  "colour_reference": "Approximate blue-cyan-green-yellow-orange-red sequence based on user-provided article figure, not sampled exact article RGB; compare local Origin palette visually."
+}
