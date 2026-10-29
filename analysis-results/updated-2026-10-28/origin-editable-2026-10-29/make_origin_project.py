@@ -11,9 +11,72 @@ import hashlib
 import json
 import sys
 import traceback
-import numpy as np
+import importlib
+import site
 
 ROOT = Path(__file__).resolve().parent
+LOCAL_DEPS = ROOT / '_origin_python' / ('py%d%d' % sys.version_info[:2])
+DEPENDENCY_MESSAGES = []
+if LOCAL_DEPS.exists():
+    site.addsitedir(str(LOCAL_DEPS))
+    sys.path.insert(0, str(LOCAL_DEPS))
+
+
+def require_module(module_name, no_deps=False):
+    """Install a truly missing package locally in the current Python interpreter.
+
+    Do not invoke sys.executable: an embedded interpreter may report Origin.exe.
+    A DLL or ABI error is deliberately not treated as a missing top-level module.
+    """
+    try:
+        return importlib.import_module(module_name)
+    except ModuleNotFoundError as missing:
+        if missing.name != module_name:
+            raise
+    message = 'Missing %s. Installing from PyPI into %s' % (module_name, LOCAL_DEPS)
+    print(message)
+    print('Python runtime: ' + sys.version)
+    DEPENDENCY_MESSAGES.append(message)
+    DEPENDENCY_MESSAGES.append('Python runtime: ' + sys.version)
+    LOCAL_DEPS.mkdir(parents=True, exist_ok=True)
+    sys.path.insert(0, str(LOCAL_DEPS))
+    try:
+        try:
+            from pip._internal.cli.main import main as pip_main
+        except ModuleNotFoundError as missing_pip:
+            if missing_pip.name not in ('pip', 'pip._internal', 'pip._internal.cli', 'pip._internal.cli.main'):
+                raise
+            import ensurepip
+            wheels = sorted((Path(ensurepip.__file__).parent / '_bundled').glob('pip-*.whl'))
+            if not wheels:
+                raise RuntimeError('pip is unavailable in this Origin Python installation.')
+            sys.path.insert(0, str(wheels[-1]))
+            importlib.invalidate_caches()
+            from pip._internal.cli.main import main as pip_main
+        args = ['install', '--target', str(LOCAL_DEPS), '--no-warn-script-location',
+                '--only-binary=:all:']
+        if no_deps:
+            args.append('--no-deps')
+        args.append(module_name)
+        result = pip_main(args)
+        DEPENDENCY_MESSAGES.append('pip return code for %s: %s' % (module_name, result))
+        if result not in (None, 0):
+            raise RuntimeError('Package download/install failed, pip return code %s.' % result)
+        site.addsitedir(str(LOCAL_DEPS))
+        importlib.invalidate_caches()
+        loaded = importlib.import_module(module_name)
+        DEPENDENCY_MESSAGES.append('Imported %s successfully.' % module_name)
+        print('Dependency ready: ' + module_name)
+        (ROOT / 'origin_dependency_log.txt').write_text('\n'.join(DEPENDENCY_MESSAGES), encoding='utf-8')
+        return loaded
+    except Exception:
+        DEPENDENCY_MESSAGES.append(traceback.format_exc())
+        (ROOT / 'origin_dependency_log.txt').write_text('\n'.join(DEPENDENCY_MESSAGES), encoding='utf-8')
+        raise RuntimeError('Could not prepare %s. See origin_dependency_log.txt. '
+                           'If installation succeeded but a DLL could not load, restart Origin before retrying.' % module_name)
+
+
+np = require_module('numpy')
 LOG = []
 GRAPH_PAGES = []
 
@@ -125,7 +188,14 @@ def register(graph, title, generated):
 
 
 def create_project(recipe):
-    import originpro as op
+    try:
+        importlib.import_module('PyOrigin')
+        embedded = True
+    except ModuleNotFoundError as exc:
+        if exc.name != 'PyOrigin':
+            raise
+        embedded = False
+    op = require_module('originpro', no_deps=embedded)
     stamp = datetime.now().strftime('%Y%m%d_%H%M%S_%f')
     generated = ROOT / ('generated_in_origin_' + stamp)
     generated.mkdir()

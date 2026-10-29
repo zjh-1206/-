@@ -1,0 +1,15 @@
+OriginPro 2026b 学习版：缺少 numpy 的脚本修复
+
+你当前报错 ModuleNotFoundError: No module named numpy，说明缺少Python库；不能仅据此认定为学习版限制。
+
+操作：
+1. 在Code Builder关闭当前make_origin_project.py标签页。
+2. 解压本修复包，将两个.py文件复制到桌面Origin_RSM文件夹，覆盖同名文件。
+3. 重新在Code Builder打开make_origin_project.py，按F5。
+4. 首次需要联网从PyPI下载缺少的库，进度会显示在输出区；请等到完成。
+
+新版将库安装到Origin_RSM/_origin_python/py版本号，不修改系统Python，不启动新的Origin.exe。安装后继续检查数据并尝试生成图形。
+若安装失败，查看同一文件夹的origin_dependency_log.txt，上传该日志可继续定位。
+若库已下载但提示DLL无法加载，重启Origin后重试，不要反复安装。
+
+已完成Python隔离环境的真实依赖安装测试；未在Windows/Origin2026b中实际运行，不能声称已验证原生图形、字体或OPJU输出。

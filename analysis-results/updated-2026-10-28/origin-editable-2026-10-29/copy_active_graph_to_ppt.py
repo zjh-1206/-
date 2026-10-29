@@ -1,4 +1,11 @@
 """Run inside Origin, with a graph active; paste into PPT as an Origin object."""
+from pathlib import Path
+import site
+import sys
+local = Path(__file__).resolve().parent / '_origin_python' / ('py%d%d' % sys.version_info[:2])
+if local.exists():
+    site.addsitedir(str(local))
+    sys.path.insert(0, str(local))
 import originpro as op
 graph = op.find_graph()
 if graph is None:

@@ -8,6 +8,12 @@
 
 本包提供完整数据和在你本机Origin中生成原生图的脚本。**本环境没有Origin，尚未生成或试开OPJU；不把图片、Excel或脚本冒充已完成的Origin项目。**
 
+## 2026b 学习版缺少 NumPy：小修复包
+
+若出现 `ModuleNotFoundError: No module named numpy`，下载 [两个脚本的小修复包](https://github.com/zjh-1206/-/raw/refs/heads/main/analysis-results/updated-2026-10-28/origin-editable-2026-10-29/origin_script_fix.zip)，覆盖原文件夹中的同名脚本，重新打开后F5。新完整版已包含修复，无需重复下载数据。
+
+新版只在确实缺包时，从PyPI安装到脚本文件夹内按Python版本隔离的目录。首次需要网络；失败记录在origin_dependency_log.txt。已在缺少numpy/pip的Python隔离环境中验证安装与数据检查，仍未在Windows/Origin内实测。
+
 ## 运行（首次一次）
 1. 下载ZIP并解压到一个普通本地文件夹，例如 `D:\Origin_RSM`。保持全部文件的位置关系。
 2. 在Origin中保存正在处理的工作，再新建空白项目。

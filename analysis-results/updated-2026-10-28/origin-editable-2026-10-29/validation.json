@@ -13,5 +13,12 @@
   "native_OPJU_generated": false,
   "native_OLE_PPT_generated": false,
   "palette_visual_match_verified": false,
-  "source_data_unchanged": true
+  "source_data_unchanged": true,
+  "dependency_bootstrap_test": {
+    "passed": true,
+    "environment": "Linux Python3.12, python -S (numpy and pip absent from sys.path)",
+    "installed_numpy_version": "2.5.4",
+    "used_ensurepip_wheel_fallback": true,
+    "Origin_native_test": false
+  }
 }
