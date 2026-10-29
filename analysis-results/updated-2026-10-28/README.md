@@ -8,6 +8,10 @@
 
 本页下方的95°C折中候选仅针对原有F/P双目标，不代表加入能耗与新阈值后的综合最优。
 
+## 汇报PPT
+
+已整理 **[8–10分钟阶段汇报PPT、PDF与讲稿提示](presentation-2026-10-29/README.md)**，正文10页、备份3页，包含实测达标区域、中心重复、模型比较、响应面与可行区、β诊断和低温候选图。所有候选仍明确标注待独立验证，未声称实测节能。
+
 ## 下载
 
 - [完整文件包 ZIP](https://github.com/zjh-1206/-/raw/refs/heads/main/analysis-results/updated-2026-10-28/updated_results.zip)
